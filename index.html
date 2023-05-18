@@ -16,21 +16,37 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- header start -->
     <header>
       <div class="container">
         <h1>
-          <button>MG</button>
+          <button data-animation-scroll="true" data-target="#main">MG</button>
         </h1>
         <nav>
           <ul>
-            <li><button>About</button></li>
-            <li><button>Features</button></li>
-            <li><button>Portfolio</button></li>
-            <li><button>Contact</button></li>
+            <li>
+              <button data-animation-scroll="true" data-target="#about">
+                About
+              </button>
+            </li>
+            <li>
+              <button data-animation-scroll="true" data-target="#features">
+                Features
+              </button>
+            </li>
+            <li>
+              <button data-animation-scroll="true" data-target="#portfolio">
+                Portfolio
+              </button>
+            </li>
+            <li>
+              <button data-animation-scroll="true" data-target="#contact">
+                Contact
+              </button>
+            </li>
           </ul>
         </nav>
       </div>
@@ -41,7 +57,7 @@
     <main id="main">
       <div class="container">
         <h4>Welcome</h4>
-        <h2>I`M A <span>Front-End Developer</span></h2>
+        <h2>I`M A <span></span></h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
           veniam optio quia natus facere, iure, maxime porro temporibus sed eos,
@@ -66,7 +82,7 @@
         </div>
         <div class="about-self">
           <div class="left">
-            <img src="images/me_alone.jpg" alt="" />
+            <img src="images/cat2.jpg" alt="" />
           </div>
           <div class="right">
             <h3>Hello, <strong>I`m MGcoding</strong></h3>
@@ -101,6 +117,184 @@
         </div>
       </div>
     </section>
-    <!-- abount section end -->
+    <!-- about section end -->
+
+    <!-- whatido section start -->
+    <section id="features" class="do">
+      <div class="container">
+        <div class="title">
+          <h4>Feature</h4>
+          <h2>What I Do</h2>
+        </div>
+        <div class="do-me">
+          <div class="do-inner">
+            <div class="icon">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="content">
+              <h3>HTML5</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                ducimus inventore saepe quis voluptatum neque, modi voluptate.
+              </p>
+            </div>
+          </div>
+          <div class="do-inner">
+            <div class="icon">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="content">
+              <h3>CSS</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                ducimus inventore saepe quis voluptatum neque, modi voluptate.
+              </p>
+            </div>
+          </div>
+          <div class="do-inner">
+            <div class="icon">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <div class="content">
+              <h3>JS</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                ducimus inventore saepe quis voluptatum neque, modi voluptate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- whatido section end -->
+
+    <!-- bg img  -->
+    <div class="bg"></div>
+    <!-- bg img -->
+
+    <!-- portfolio section start -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="title">
+          <h4>PORTFOLIOBACK</h4>
+          <h2>PortFolio</h2>
+        </div>
+        <div class="portfolio-me">
+          <div class="portfolio-inner">
+            <!-- portfolio img -->
+            <img src="images/cat3.jpg" alt="" />
+            <!-- portfolio title -->
+            <strong>title</strong>
+            <!-- portfolio content -->
+            <h3>portfolio content</h3>
+          </div>
+          <div class="portfolio-inner">
+            <!-- portfolio img -->
+            <img src="images/cat3.jpg" alt="" />
+            <!-- portfolio title -->
+            <strong>title</strong>
+            <!-- portfolio content -->
+            <h3>portfolio content</h3>
+          </div>
+          <div class="portfolio-inner">
+            <!-- portfolio img -->
+            <img src="images/cat3.jpg" alt="" />
+            <!-- portfolio title -->
+            <strong>title</strong>
+            <!-- portfolio content -->
+            <h3>portfolio content</h3>
+          </div>
+          <div class="portfolio-inner">
+            <!-- portfolio img -->
+            <img src="images/cat3.jpg" alt="" />
+            <!-- portfolio title -->
+            <strong>title</strong>
+            <!-- portfolio content -->
+            <h3>portfolio content</h3>
+          </div>
+          <div class="portfolio-inner">
+            <!-- portfolio img -->
+            <img src="images/cat3.jpg" alt="" />
+            <!-- portfolio title -->
+            <strong>title</strong>
+            <!-- portfolio content -->
+            <h3>portfolio content</h3>
+          </div>
+          <div class="portfolio-inner">
+            <!-- portfolio img -->
+            <img src="images/cat3.jpg" alt="" />
+            <!-- portfolio title -->
+            <strong>title</strong>
+            <!-- portfolio content -->
+            <h3>portfolio content</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section end -->
+
+    <!-- contact section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="title">
+          <h4>CONATACT</h4>
+          <h2>Contact With Me</h2>
+        </div>
+        <div class="contact-me">
+          <div class="left">
+            <div class="card">
+              <div class="icon">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </div>
+              <div class="info-text">
+                <h3>Phone</h3>
+                <p>010-2345-6789</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="icon">
+                <i class="fa-solid fa-square-envelope"></i>
+              </div>
+              <div class="info-text">
+                <h3>E-mail</h3>
+                <p>ddi159357@gmail.com</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="icon">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="info-text">
+                <h3>GitHub</h3>
+                <a href="https://github.com/SonMyungGyoon"
+                  ><p>GitHub Link<i class="fa-solid fa-link"></i></p
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <form action="#">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="name" />
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea id="msg"></textarea>
+              </div>
+              <button type="submit">send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+    <script src="script.js"></script>
   </body>
 </html>
